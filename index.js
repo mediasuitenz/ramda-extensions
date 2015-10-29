@@ -4,13 +4,18 @@
 
 ;
 (function () {
+  console.log('\n\n' +
+  '***********************************************************************************\n' +
+  '* WARNING: This package is deprecated.                                            *\n' +
+  '* Use ramda-extended instead (https://github.com/mediasuitenz/ramda-extended.git) *\n' +
+  '***********************************************************************************\n\n')
 
   'use strict';
 
   var Re = {};
 
   // @sig a -> Boolean
-  Re.isUndefined = (x) => typeof x === 'undefined';
+  Re.isUndefined = function(x) {return typeof x === 'undefined'};
   Re.isNotEmpty = R.complement(R.isEmpty);
   Re.isNotNil = R.complement(R.isNil);
   Re.isEmptyObj = R.compose(R.isEmpty, Object.keys);
