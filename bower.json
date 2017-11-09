@@ -4,7 +4,7 @@
   "version": "1.2.2",
   "homepage": "https://github.com/mediasuitenz/ramda-extensions",
   "authors": [
-    "Patrick Walsh <patrick.nilsen.walsh@gmail.com>"
+    "Patrick Walsh <patrick@mediasuite.co.nz>"
   ],
   "description": "Utility belt that extends Ramda.js and Ember.js",
   "moduleType": [
